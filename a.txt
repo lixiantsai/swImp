@@ -1,0 +1,4 @@
+因為hub上有檔案而本機沒有,所以要先把hub上的東西pull下來,然後再push上去
+git pull <name> <branch> --rebase
+或是直接覆蓋但上面的東西會被你蓋掉
+git push <name> <branch> -f
